@@ -24,7 +24,7 @@ def generate_gray_codes(n):
     
     return gray_codes_n
 
-# Test the function with n = 3
-n = 3
+# Get the number of bits from user input
+n = int(input("Enter the number of bits: "))
 gray_codes = generate_gray_codes(n)
 print(f"Gray codes for {n} bits: {gray_codes}")
